@@ -1,16 +1,34 @@
+.cityinfo{
+    width: 800px;
+}
+
 .upperpanel {
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 60%;
-    background-color: rgb(54, 49, 49);
     color: grey;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 10px;
 }
 
 .cloudimage {
     height: 100px;
+}
+.upperpanel2{
+    background-color: #D4EBF8;
+    height: 100px;
+    width: 60px;
+    border-radius: 15px;
+}
+.time{
+    margin: 13px;
+    padding-top: 10px;
+}
+.cloudimg{
+    margin: 10px;
+    height: 5px;
+    width: 40px;
+}
+.temp{
+    margin: 20px;
+    padding-top: 15px;
 }

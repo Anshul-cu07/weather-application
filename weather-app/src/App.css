@@ -1,9 +1,17 @@
-.body {
-    background-color: black;
-}
-
 .topsection {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    background-color:rgb(54, 49, 49);
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
 }
