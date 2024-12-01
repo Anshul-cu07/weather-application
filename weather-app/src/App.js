@@ -6,19 +6,31 @@ import CityInfo from "./City_info/CityInfo";
 import Subscribe from "./Subscribe/Subscribe";
 import Forecast from "./Forecast/Forecast";
 import Cities from "./cities/Cities";
+import Sidebar from "./Sidebar/Sidebar";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function App() {
+
+  
   return (
-    <div className="App">
-      <div className="topsection">
-        <UserDetails />
-        <Search />
+    <div className="main-page">
+      <div>
+        <Sidebar />
       </div>
-      <div className="second">
-        <CityInfo />
+      <div>
+        <div className="topsection">
+          <UserDetails />
+          <Search />
+        </div>
+        <div className="second">
+          <CityInfo />
+        </div>
+
+        <div className="third">
+          <Subscribe />
+          <Forecast />
+          <Cities />
+        </div>
       </div>
-      <Subscribe />
-      <Forecast />
-      <Cities />
     </div>
   );
 }

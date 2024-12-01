@@ -1,0 +1,14 @@
+.side-bar {
+border-radius: 5px;
+  color: red;
+  height: 100%;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  background-color: rgb(203, 212, 223);
+}
+.google-icon {
+  color: white;
+}

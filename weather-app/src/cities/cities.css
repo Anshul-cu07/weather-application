@@ -12,10 +12,14 @@
 .cloudimg{
     height: 50px;
     width: 50px;
-    margin-bottom: 100px;
 
 
 }
 .line1{
     margin-top: 30px;
+}
+
+.cities-weather-details{
+    display: flex;
+    justify-content: space-between;
 }

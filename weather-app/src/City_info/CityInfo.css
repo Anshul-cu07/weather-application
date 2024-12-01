@@ -1,34 +1,42 @@
-.cityinfo{
-    width: 800px;
+.cityinfo {
+  width: 800px;
 }
 
 .upperpanel {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    color: grey;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: grey;
 }
 
 .cloudimage {
-    height: 100px;
+  height: 100px;
 }
-.upperpanel2{
-    background-color: #D4EBF8;
-    height: 100px;
-    width: 60px;
-    border-radius: 15px;
+.upperpanel2 {
+  background-color: #d4ebf8;
+  height: 100px;
+  width: 60px;
+  border-radius: 15px;
 }
-.time{
-    margin: 13px;
-    padding-top: 10px;
+.time {
+  margin: 13px;
+  padding-top: 10px;
 }
-.cloudimg{
-    margin: 10px;
-    height: 5px;
-    width: 40px;
+
+.temp {
+  margin: 8px;
+  text-align: center;
 }
-.temp{
-    margin: 20px;
-    padding-top: 15px;
+.weekly-weather {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.weekly-weather-detail {
+  list-style: none;
+}
+.weekly-weather-cloud {
+  display: flex;
+  justify-content: center;
 }

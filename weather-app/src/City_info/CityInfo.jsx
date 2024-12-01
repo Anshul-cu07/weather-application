@@ -34,16 +34,20 @@ function CityInfo() {
           <h4>{"Wind speed"}</h4>
         </span>
       </div>
-      <div>
-        <ul>
-          <li className="upperpanel2">
-            <div className="time">09 am</div>
-            <div className="cloudimg">
-              <img src={cloudblack}></img>
-            </div>
-            <div className="temp">17°</div>
-          </li>
-        </ul>
+      <div className="weekly-weather">
+        {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item) => {
+          return (
+            <ul className="weekly-weather-detail">
+              <li className="upperpanel2">
+                <div className="time">09 am</div>
+                <div className="weekly-weather-cloud">
+                  <img src={cloudblack} width={"22px"} height={"22px"}></img>
+                </div>
+                <div className="temp">17°</div>
+              </li>
+            </ul>
+          );
+        })}
       </div>
     </div>
   );
